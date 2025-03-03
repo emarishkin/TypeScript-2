@@ -3,6 +3,7 @@ import Card, { CardVariant } from "./components/Card"
 import { IUser } from "./components/types"
 import UserList from "./components/UserList"
 import axios from "axios"
+import EventsExample from "./components/EventsExample"
 
 function App() {
 
@@ -36,8 +37,10 @@ async function fetchUsers(){
         <button>
           sss
         </button>
+        
       </Card>
       <UserList users={users}/>
+      <EventsExample/>
     </>
   )
 }

@@ -2,7 +2,7 @@ import { FC } from "react";
 import { IUser } from "./types";
 
 
-export interface UserItemProops{
+interface UserItemProops{
     user:IUser
 }
 
